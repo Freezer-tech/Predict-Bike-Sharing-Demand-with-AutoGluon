@@ -47,6 +47,21 @@ pip install jupyterlab
 ```
 * There are also docker containers containing jupyter lab from [Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html).
 
+### Local installation
+If you want to run this project locally I provided the environment.yml and requirements.txt, to install them use conda and pip:
+
+```
+conda env create -f environment.yml
+```
+## To activate it just run
+```
+conda activate py310
+```
+## To install requirements.txt
+```
+pip install -r requirements.txt
+```
+
 ## Project Instructions
 
 1. Create an account with Kaggle.
